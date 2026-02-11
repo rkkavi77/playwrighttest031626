@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Salesforce Login Test Suite" verbose="2" parallel="false">
+    <test name="Valid Login Tests">
+        <classes>
+            <class name="com.kavi.tests.ValidLoginTest">
+                <methods>
+                    <include name="testValidLogin" />
+                    <include name="testValidLoginWithRememberMe" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Invalid Login Tests">
+        <classes>
+            <class name="com.kavi.tests.InvalidLoginTest">
+                <methods>
+                    <include name="testInvalidLogin" />
+                    <include name="testLoginWithInvalidEmailFormat" />
+                    <include name="testLoginWithEmptyCredentials" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
