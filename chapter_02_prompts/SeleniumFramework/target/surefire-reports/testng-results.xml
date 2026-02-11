@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="20" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-10T20:48:32 CST" name="Salesforce Login Test Suite" finished-at="2026-02-10T20:51:44 CST" duration-ms="192093">
+    <groups>
+    </groups>
+    <test started-at="2026-02-10T20:48:32 CST" name="Login Tests" finished-at="2026-02-10T20:51:44 CST" duration-ms="192093">
+      <class name="com.salesforce.tests.InvalidLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:48:32 CST" name="setUp" finished-at="2026-02-10T20:48:37 CST" duration-ms="5527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:48:37 CST" name="initPage" finished-at="2026-02-10T20:48:37 CST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="testEmptyCredentials()[pri:1, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:48:37 CST" name="testEmptyCredentials" description="Verify error message with empty username and empty password" finished-at="2026-02-10T20:48:38 CST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:48:38 CST" name="tearDown" finished-at="2026-02-10T20:48:38 CST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:48:38 CST" name="setUp" finished-at="2026-02-10T20:48:39 CST" duration-ms="1326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:48:39 CST" name="initPage" finished-at="2026-02-10T20:48:39 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="testEmptyUsername()[pri:2, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:48:39 CST" name="testEmptyUsername" description="Verify error message with empty username" finished-at="2026-02-10T20:48:40 CST" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:48:40 CST" name="tearDown" finished-at="2026-02-10T20:48:40 CST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:48:40 CST" name="setUp" finished-at="2026-02-10T20:48:41 CST" duration-ms="1572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:48:41 CST" name="setUp" finished-at="2026-02-10T20:48:44 CST" duration-ms="2604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyPassword()[pri:3, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:48:41 CST" name="testEmptyPassword" description="Verify error message with empty password" finished-at="2026-02-10T20:48:42 CST" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyPassword -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:48:41 CST" name="initPage" finished-at="2026-02-10T20:48:41 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:48:42 CST" name="tearDown" finished-at="2026-02-10T20:48:44 CST" duration-ms="1932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testInvalidUsernameFormat()[pri:4, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:48:44 CST" name="testInvalidUsernameFormat" description="Verify error message with invalid username format" finished-at="2026-02-10T20:51:44 CST" duration-ms="180010" status="FAIL">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Test failed: Failed to enter username: java.util.concurrent.TimeoutException
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.7.4', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67a68875aea6b80ecd10bc1658dcdcd4, findElement {value=//input[@id='username'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.46, chrome: {chromedriverVersion: 145.0.7632.46 (9b899469dedf..., userDataDir: /var/folders/cl/sgth5x211ws...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59350}, goog:processID: 88344, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59350/devtoo..., se:cdpVersion: 145.0.7632.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Test failed: Failed to enter username: java.util.concurrent.TimeoutException
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.7.4', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67a68875aea6b80ecd10bc1658dcdcd4, findElement {value=//input[@id='username'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.46, chrome: {chromedriverVersion: 145.0.7632.46 (9b899469dedf..., userDataDir: /var/folders/cl/sgth5x211ws...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59350}, goog:processID: 88344, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59350/devtoo..., se:cdpVersion: 145.0.7632.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at com.salesforce.tests.InvalidLoginTest.testInvalidUsernameFormat(InvalidLoginTest.java:66)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUsernameFormat -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:48:44 CST" name="initPage" finished-at="2026-02-10T20:48:44 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:48:46 CST" name="setUp" finished-at="2026-02-10T20:48:48 CST" duration-ms="1372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidCredentials()[pri:5, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:48:48 CST" name="testInvalidCredentials" description="Verify error message with invalid credentials" finished-at="2026-02-10T20:48:49 CST" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCredentials -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:48:48 CST" name="initPage" finished-at="2026-02-10T20:48:48 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:48:49 CST" name="tearDown" finished-at="2026-02-10T20:48:49 CST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:08 CST" name="setUp" finished-at="2026-02-10T20:49:09 CST" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:09 CST" name="initPage" finished-at="2026-02-10T20:49:09 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="testSpecialCharactersInUsername()[pri:6, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:09 CST" name="testSpecialCharactersInUsername" description="Verify error message with special characters in username" finished-at="2026-02-10T20:49:10 CST" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpecialCharactersInUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:10 CST" name="tearDown" finished-at="2026-02-10T20:49:10 CST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:12 CST" name="setUp" finished-at="2026-02-10T20:49:13 CST" duration-ms="1163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:13 CST" name="initPage" finished-at="2026-02-10T20:49:13 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="testSqlInjectionInUsername()[pri:7, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:13 CST" name="testSqlInjectionInUsername" description="Verify error message with SQL injection attempt in username" finished-at="2026-02-10T20:49:14 CST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSqlInjectionInUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:14 CST" name="tearDown" finished-at="2026-02-10T20:49:14 CST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:16 CST" name="setUp" finished-at="2026-02-10T20:49:17 CST" duration-ms="1329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:17 CST" name="initPage" finished-at="2026-02-10T20:49:17 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="testVeryLongUsername()[pri:8, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:17 CST" name="testVeryLongUsername" description="Verify error message with very long username" finished-at="2026-02-10T20:49:17 CST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVeryLongUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:17 CST" name="tearDown" finished-at="2026-02-10T20:49:18 CST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:19 CST" name="setUp" finished-at="2026-02-10T20:49:20 CST" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:20 CST" name="initPage" finished-at="2026-02-10T20:49:20 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="testSpacesOnlyUsername()[pri:9, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:20 CST" name="testSpacesOnlyUsername" description="Verify error message with spaces only in username" finished-at="2026-02-10T20:49:21 CST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpacesOnlyUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:21 CST" name="tearDown" finished-at="2026-02-10T20:49:21 CST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:22 CST" name="setUp" finished-at="2026-02-10T20:49:24 CST" duration-ms="1087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:24 CST" name="initPage" finished-at="2026-02-10T20:49:24 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="testXssAttemptInPassword()[pri:10, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:24 CST" name="testXssAttemptInPassword" description="Verify error message with XSS attempt in password" finished-at="2026-02-10T20:49:26 CST" duration-ms="2926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testXssAttemptInPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:26 CST" name="tearDown" finished-at="2026-02-10T20:49:27 CST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:27 CST" name="setUp" finished-at="2026-02-10T20:49:28 CST" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testStaysOnLoginPageAfterFailedLogin()[pri:11, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:28 CST" name="testStaysOnLoginPageAfterFailedLogin" description="Verify user stays on login page after failed login" finished-at="2026-02-10T20:49:30 CST" duration-ms="1934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStaysOnLoginPageAfterFailedLogin -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:28 CST" name="initPage" finished-at="2026-02-10T20:49:28 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:30 CST" name="tearDown" finished-at="2026-02-10T20:49:30 CST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:30 CST" name="setUp" finished-at="2026-02-10T20:49:31 CST" duration-ms="1312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testErrorMessageContainsRelevantText()[pri:12, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:31 CST" name="testErrorMessageContainsRelevantText" description="Verify error message contains relevant text" finished-at="2026-02-10T20:49:31 CST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorMessageContainsRelevantText -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:31 CST" name="initPage" finished-at="2026-02-10T20:49:31 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:31 CST" name="tearDown" finished-at="2026-02-10T20:49:31 CST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:32 CST" name="setUp" finished-at="2026-02-10T20:49:33 CST" duration-ms="1306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:33 CST" name="initPage" finished-at="2026-02-10T20:49:33 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="testMultipleFailedLoginAttempts()[pri:13, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:33 CST" name="testMultipleFailedLoginAttempts" description="Verify multiple failed login attempts" finished-at="2026-02-10T20:49:37 CST" duration-ms="3700" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error should be displayed on attempt 2 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error should be displayed on attempt 2 expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.salesforce.tests.InvalidLoginTest.testMultipleFailedLoginAttempts(InvalidLoginTest.java:182)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleFailedLoginAttempts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:37 CST" name="tearDown" finished-at="2026-02-10T20:49:37 CST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:37 CST" name="setUp" finished-at="2026-02-10T20:49:38 CST" duration-ms="1472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:38 CST" name="initPage" finished-at="2026-02-10T20:49:38 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="testPasswordCaseSensitivity()[pri:14, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:38 CST" name="testPasswordCaseSensitivity" description="Verify login with case sensitivity in password" finished-at="2026-02-10T20:49:39 CST" duration-ms="845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordCaseSensitivity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:39 CST" name="tearDown" finished-at="2026-02-10T20:49:39 CST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:39 CST" name="setUp" finished-at="2026-02-10T20:49:40 CST" duration-ms="1158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUnicodeCharactersInUsername()[pri:15, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:40 CST" name="testUnicodeCharactersInUsername" description="Verify login with unicode characters in username" finished-at="2026-02-10T20:49:41 CST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnicodeCharactersInUsername -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:40 CST" name="initPage" finished-at="2026-02-10T20:49:40 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:49:41 CST" name="tearDown" finished-at="2026-02-10T20:49:41 CST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.InvalidLoginTest@78e117e3]" started-at="2026-02-10T20:51:44 CST" name="tearDown" finished-at="2026-02-10T20:51:44 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.tests.InvalidLoginTest -->
+      <class name="com.salesforce.tests.ValidLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:32 CST" name="setUp" finished-at="2026-02-10T20:48:37 CST" duration-ms="5789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:37 CST" name="initPage" finished-at="2026-02-10T20:48:37 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="testLoginPageDisplay()[pri:1, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:37 CST" name="testLoginPageDisplay" description="Verify login page is displayed correctly" finished-at="2026-02-10T20:48:38 CST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageDisplay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:38 CST" name="tearDown" finished-at="2026-02-10T20:48:38 CST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:38 CST" name="setUp" finished-at="2026-02-10T20:48:40 CST" duration-ms="2010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:40 CST" name="initPage" finished-at="2026-02-10T20:48:40 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="testLoginPageTitle()[pri:2, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:40 CST" name="testLoginPageTitle" description="Verify page title contains Salesforce" finished-at="2026-02-10T20:48:40 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:40 CST" name="tearDown" finished-at="2026-02-10T20:48:40 CST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:40 CST" name="setUp" finished-at="2026-02-10T20:48:41 CST" duration-ms="1313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:41 CST" name="initPage" finished-at="2026-02-10T20:48:41 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="testUsernameFieldEmpty()[pri:3, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:41 CST" name="testUsernameFieldEmpty" description="Verify username field is empty on page load" finished-at="2026-02-10T20:48:41 CST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsernameFieldEmpty -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:41 CST" name="tearDown" finished-at="2026-02-10T20:48:41 CST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:44 CST" name="setUp" finished-at="2026-02-10T20:48:46 CST" duration-ms="2472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:46 CST" name="initPage" finished-at="2026-02-10T20:48:46 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="testPasswordFieldEmpty()[pri:4, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:46 CST" name="testPasswordFieldEmpty" description="Verify password field is empty on page load" finished-at="2026-02-10T20:48:46 CST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordFieldEmpty -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:46 CST" name="tearDown" finished-at="2026-02-10T20:48:46 CST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:49 CST" name="setUp" finished-at="2026-02-10T20:48:50 CST" duration-ms="1180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRememberMeUncheckedByDefault()[pri:5, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:50 CST" name="testRememberMeUncheckedByDefault" description="Verify remember me checkbox is not checked by default" finished-at="2026-02-10T20:48:50 CST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRememberMeUncheckedByDefault -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:50 CST" name="initPage" finished-at="2026-02-10T20:48:50 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:50 CST" name="tearDown" finished-at="2026-02-10T20:48:50 CST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:50 CST" name="setUp" finished-at="2026-02-10T20:48:53 CST" duration-ms="2263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:53 CST" name="initPage" finished-at="2026-02-10T20:48:53 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="testRememberMeCheckboxFunctionality()[pri:6, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:48:53 CST" name="testRememberMeCheckboxFunctionality" description="Verify remember me checkbox can be checked" finished-at="2026-02-10T20:49:08 CST" duration-ms="15208" status="FAIL">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Test failed: Failed to click remember me checkbox: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.46)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.7.4', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7efa2f1f1f7d49feb209ae0662093279, findElement {value=//input[@id='rememberUn'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.46, chrome: {chromedriverVersion: 145.0.7632.46 (9b899469dedf..., userDataDir: /var/folders/cl/sgth5x211ws...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59393}, goog:processID: 88402, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59393/devtoo..., se:cdpVersion: 145.0.7632.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7efa2f1f1f7d49feb209ae0662093279]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Test failed: Failed to click remember me checkbox: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.46)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.7.4', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7efa2f1f1f7d49feb209ae0662093279, findElement {value=//input[@id='rememberUn'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.46, chrome: {chromedriverVersion: 145.0.7632.46 (9b899469dedf..., userDataDir: /var/folders/cl/sgth5x211ws...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59393}, goog:processID: 88402, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59393/devtoo..., se:cdpVersion: 145.0.7632.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7efa2f1f1f7d49feb209ae0662093279
+at com.salesforce.tests.ValidLoginTest.testRememberMeCheckboxFunctionality(ValidLoginTest.java:74)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRememberMeCheckboxFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:49:08 CST" name="tearDown" finished-at="2026-02-10T20:49:08 CST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:49:10 CST" name="setUp" finished-at="2026-02-10T20:49:11 CST" duration-ms="1021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:49:11 CST" name="initPage" finished-at="2026-02-10T20:49:11 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="testLoginWithValidCredentialsFormat()[pri:7, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:49:11 CST" name="testLoginWithValidCredentialsFormat" description="Verify login with valid credentials format" finished-at="2026-02-10T20:49:12 CST" duration-ms="1474" status="FAIL">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Test failed: Page load wait failed: stale element reference: stale element not found
+  (Session info: chrome=145.0.7632.46)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.7.4', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c44f43d63824f72353fba8e202eff100, isElementDisplayed {id=f.236E3238A69959F54CFB56A08119CB2F.d.4ED817582C82FA98F325A92A2092438B.e.36}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.46, chrome: {chromedriverVersion: 145.0.7632.46 (9b899469dedf..., userDataDir: /var/folders/cl/sgth5x211ws...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59414}, goog:processID: 88472, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59414/devtoo..., se:cdpVersion: 145.0.7632.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (c44f43d63824f72353fba8e202eff100)] -> xpath: //input[@id='Login']]
+Session ID: c44f43d63824f72353fba8e202eff100]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Test failed: Page load wait failed: stale element reference: stale element not found
+  (Session info: chrome=145.0.7632.46)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.7.4', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c44f43d63824f72353fba8e202eff100, isElementDisplayed {id=f.236E3238A69959F54CFB56A08119CB2F.d.4ED817582C82FA98F325A92A2092438B.e.36}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.46, chrome: {chromedriverVersion: 145.0.7632.46 (9b899469dedf..., userDataDir: /var/folders/cl/sgth5x211ws...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59414}, goog:processID: 88472, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59414/devtoo..., se:cdpVersion: 145.0.7632.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (c44f43d63824f72353fba8e202eff100)] -> xpath: //input[@id='Login']]
+Session ID: c44f43d63824f72353fba8e202eff100
+at com.salesforce.tests.ValidLoginTest.testLoginWithValidCredentialsFormat(ValidLoginTest.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCredentialsFormat -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:49:12 CST" name="tearDown" finished-at="2026-02-10T20:49:12 CST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:49:14 CST" name="setUp" finished-at="2026-02-10T20:49:15 CST" duration-ms="1459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithRememberMeOption()[pri:8, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:49:15 CST" name="testLoginWithRememberMeOption" description="Verify login with remember me option" finished-at="2026-02-10T20:49:16 CST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithRememberMeOption -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:49:15 CST" name="initPage" finished-at="2026-02-10T20:49:15 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:49:16 CST" name="tearDown" finished-at="2026-02-10T20:49:16 CST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:49:18 CST" name="setUp" finished-at="2026-02-10T20:49:19 CST" duration-ms="1474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCurrentUrlContainsSalesforce()[pri:9, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:49:19 CST" name="testCurrentUrlContainsSalesforce" description="Verify current URL contains salesforce" finished-at="2026-02-10T20:49:19 CST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Test failed: Failed to get current URL: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.46)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.7.4', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13132cfc88080078833f1a36144f150e, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.46, chrome: {chromedriverVersion: 145.0.7632.46 (9b899469dedf..., userDataDir: /var/folders/cl/sgth5x211ws...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59461}, goog:processID: 88542, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59461/devtoo..., se:cdpVersion: 145.0.7632.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 13132cfc88080078833f1a36144f150e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Test failed: Failed to get current URL: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.46)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.7.4', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13132cfc88080078833f1a36144f150e, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.46, chrome: {chromedriverVersion: 145.0.7632.46 (9b899469dedf..., userDataDir: /var/folders/cl/sgth5x211ws...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59461}, goog:processID: 88542, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59461/devtoo..., se:cdpVersion: 145.0.7632.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 13132cfc88080078833f1a36144f150e
+at com.salesforce.tests.ValidLoginTest.testCurrentUrlContainsSalesforce(ValidLoginTest.java:111)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCurrentUrlContainsSalesforce -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:49:19 CST" name="initPage" finished-at="2026-02-10T20:49:19 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:49:19 CST" name="tearDown" finished-at="2026-02-10T20:49:19 CST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:49:21 CST" name="setUp" finished-at="2026-02-10T20:49:22 CST" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginPageElementsInteractable()[pri:10, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:49:22 CST" name="testLoginPageElementsInteractable" description="Verify login page elements are interactable" finished-at="2026-02-10T20:49:22 CST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageElementsInteractable -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:49:22 CST" name="initPage" finished-at="2026-02-10T20:49:22 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.salesforce.tests.ValidLoginTest@77167fb7]" started-at="2026-02-10T20:49:22 CST" name="tearDown" finished-at="2026-02-10T20:49:22 CST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.tests.ValidLoginTest -->
+    </test> <!-- Login Tests -->
+  </suite> <!-- Salesforce Login Test Suite -->
+</testng-results>

@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Salesforce Login Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Salesforce_Login_Test_Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Salesforce_Login_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Salesforce_Login_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Salesforce_Login_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Salesforce_Login_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Salesforce_Login_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Salesforce_Login_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods, 5 failed,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" class="hide-methods failed suite-Salesforce_Login_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Salesforce_Login_Test_Suite -->
+                      <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" class="show-methods failed suite-Salesforce_Login_Test_Suite"> (show)</a> <!-- show-methods failed suite-Salesforce_Login_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Salesforce_Login_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.ValidLoginTest" class="method navigator-link" hash-for-method="testCurrentUrlContainsSalesforce">testCurrentUrlContainsSalesforce</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.InvalidLoginTest" class="method navigator-link" hash-for-method="testInvalidUsernameFormat">testInvalidUsernameFormat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.ValidLoginTest" class="method navigator-link" hash-for-method="testLoginWithValidCredentialsFormat">testLoginWithValidCredentialsFormat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.InvalidLoginTest" class="method navigator-link" hash-for-method="testMultipleFailedLoginAttempts">testMultipleFailedLoginAttempts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.ValidLoginTest" class="method navigator-link" hash-for-method="testRememberMeCheckboxFunctionality">testRememberMeCheckboxFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Salesforce_Login_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" class="hide-methods passed suite-Salesforce_Login_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Salesforce_Login_Test_Suite -->
+                      <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" class="show-methods passed suite-Salesforce_Login_Test_Suite"> (show)</a> <!-- show-methods passed suite-Salesforce_Login_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Salesforce_Login_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.InvalidLoginTest" class="method navigator-link" hash-for-method="testEmptyCredentials">testEmptyCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.InvalidLoginTest" class="method navigator-link" hash-for-method="testEmptyPassword">testEmptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.InvalidLoginTest" class="method navigator-link" hash-for-method="testEmptyUsername">testEmptyUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.InvalidLoginTest" class="method navigator-link" hash-for-method="testErrorMessageContainsRelevantText">testErrorMessageContainsRelevantText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.InvalidLoginTest" class="method navigator-link" hash-for-method="testInvalidCredentials">testInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.ValidLoginTest" class="method navigator-link" hash-for-method="testLoginPageDisplay">testLoginPageDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.ValidLoginTest" class="method navigator-link" hash-for-method="testLoginPageElementsInteractable">testLoginPageElementsInteractable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.ValidLoginTest" class="method navigator-link" hash-for-method="testLoginPageTitle">testLoginPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.ValidLoginTest" class="method navigator-link" hash-for-method="testLoginWithRememberMeOption">testLoginWithRememberMeOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.InvalidLoginTest" class="method navigator-link" hash-for-method="testPasswordCaseSensitivity">testPasswordCaseSensitivity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.ValidLoginTest" class="method navigator-link" hash-for-method="testPasswordFieldEmpty">testPasswordFieldEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.ValidLoginTest" class="method navigator-link" hash-for-method="testRememberMeUncheckedByDefault">testRememberMeUncheckedByDefault</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.InvalidLoginTest" class="method navigator-link" hash-for-method="testSpacesOnlyUsername">testSpacesOnlyUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.InvalidLoginTest" class="method navigator-link" hash-for-method="testSpecialCharactersInUsername">testSpecialCharactersInUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.InvalidLoginTest" class="method navigator-link" hash-for-method="testSqlInjectionInUsername">testSqlInjectionInUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.InvalidLoginTest" class="method navigator-link" hash-for-method="testStaysOnLoginPageAfterFailedLogin">testStaysOnLoginPageAfterFailedLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.InvalidLoginTest" class="method navigator-link" hash-for-method="testUnicodeCharactersInUsername">testUnicodeCharactersInUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.ValidLoginTest" class="method navigator-link" hash-for-method="testUsernameFieldEmpty">testUsernameFieldEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.InvalidLoginTest" class="method navigator-link" hash-for-method="testVeryLongUsername">testVeryLongUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Salesforce_Login_Test_Suite" title="com.salesforce.tests.InvalidLoginTest" class="method navigator-link" hash-for-method="testXssAttemptInPassword">testXssAttemptInPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Salesforce_Login_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Salesforce_Login_Test_Suite" class="panel Salesforce_Login_Test_Suite">
+          <div class="suite-Salesforce_Login_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.salesforce.tests.ValidLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCurrentUrlContainsSalesforce">
+                  </a> <!-- testCurrentUrlContainsSalesforce -->
+                  <span class="method-name">testCurrentUrlContainsSalesforce</span>
+                  <div class="stack-trace">java.lang.Exception: Test failed: Failed to get current URL: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.46)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.7.4&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13132cfc88080078833f1a36144f150e, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.46, chrome: {chromedriverVersion: 145.0.7632.46 (9b899469dedf..., userDataDir: /var/folders/cl/sgth5x211ws...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59461}, goog:processID: 88542, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59461/devtoo..., se:cdpVersion: 145.0.7632.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 13132cfc88080078833f1a36144f150e
+	at com.salesforce.tests.ValidLoginTest.testCurrentUrlContainsSalesforce(ValidLoginTest.java:111)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify current URL contains salesforce)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithValidCredentialsFormat">
+                  </a> <!-- testLoginWithValidCredentialsFormat -->
+                  <span class="method-name">testLoginWithValidCredentialsFormat</span>
+                  <div class="stack-trace">java.lang.Exception: Test failed: Page load wait failed: stale element reference: stale element not found
+  (Session info: chrome=145.0.7632.46)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.7.4&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c44f43d63824f72353fba8e202eff100, isElementDisplayed {id=f.236E3238A69959F54CFB56A08119CB2F.d.4ED817582C82FA98F325A92A2092438B.e.36}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.46, chrome: {chromedriverVersion: 145.0.7632.46 (9b899469dedf..., userDataDir: /var/folders/cl/sgth5x211ws...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59414}, goog:processID: 88472, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59414/devtoo..., se:cdpVersion: 145.0.7632.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (c44f43d63824f72353fba8e202eff100)] -&gt; xpath: //input[@id=&apos;Login&apos;]]
+Session ID: c44f43d63824f72353fba8e202eff100
+	at com.salesforce.tests.ValidLoginTest.testLoginWithValidCredentialsFormat(ValidLoginTest.java:88)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify login with valid credentials format)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRememberMeCheckboxFunctionality">
+                  </a> <!-- testRememberMeCheckboxFunctionality -->
+                  <span class="method-name">testRememberMeCheckboxFunctionality</span>
+                  <div class="stack-trace">java.lang.Exception: Test failed: Failed to click remember me checkbox: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.46)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.7.4&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7efa2f1f1f7d49feb209ae0662093279, findElement {value=//input[@id=&apos;rememberUn&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.46, chrome: {chromedriverVersion: 145.0.7632.46 (9b899469dedf..., userDataDir: /var/folders/cl/sgth5x211ws...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59393}, goog:processID: 88402, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59393/devtoo..., se:cdpVersion: 145.0.7632.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7efa2f1f1f7d49feb209ae0662093279
+	at com.salesforce.tests.ValidLoginTest.testRememberMeCheckboxFunctionality(ValidLoginTest.java:74)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify remember me checkbox can be checked)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Salesforce_Login_Test_Suite-class-failed -->
+          <div class="suite-Salesforce_Login_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.salesforce.tests.InvalidLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidUsernameFormat">
+                  </a> <!-- testInvalidUsernameFormat -->
+                  <span class="method-name">testInvalidUsernameFormat</span>
+                  <div class="stack-trace">java.lang.Exception: Test failed: Failed to enter username: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.7.4&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67a68875aea6b80ecd10bc1658dcdcd4, findElement {value=//input[@id=&apos;username&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.46, chrome: {chromedriverVersion: 145.0.7632.46 (9b899469dedf..., userDataDir: /var/folders/cl/sgth5x211ws...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59350}, goog:processID: 88344, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59350/devtoo..., se:cdpVersion: 145.0.7632.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at com.salesforce.tests.InvalidLoginTest.testInvalidUsernameFormat(InvalidLoginTest.java:66)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify error message with invalid username format)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultipleFailedLoginAttempts">
+                  </a> <!-- testMultipleFailedLoginAttempts -->
+                  <span class="method-name">testMultipleFailedLoginAttempts</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error should be displayed on attempt 2 expected [true] but found [false]
+	at com.salesforce.tests.InvalidLoginTest.testMultipleFailedLoginAttempts(InvalidLoginTest.java:182)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify multiple failed login attempts)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Salesforce_Login_Test_Suite-class-failed -->
+          <div class="suite-Salesforce_Login_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesforce.tests.ValidLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginPageDisplay">
+                  </a> <!-- testLoginPageDisplay -->
+                  <span class="method-name">testLoginPageDisplay</span>
+                  <em>
+(Verify login page is displayed correctly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginPageElementsInteractable">
+                  </a> <!-- testLoginPageElementsInteractable -->
+                  <span class="method-name">testLoginPageElementsInteractable</span>
+                  <em>
+(Verify login page elements are interactable)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginPageTitle">
+                  </a> <!-- testLoginPageTitle -->
+                  <span class="method-name">testLoginPageTitle</span>
+                  <em>
+(Verify page title contains Salesforce)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithRememberMeOption">
+                  </a> <!-- testLoginWithRememberMeOption -->
+                  <span class="method-name">testLoginWithRememberMeOption</span>
+                  <em>
+(Verify login with remember me option)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordFieldEmpty">
+                  </a> <!-- testPasswordFieldEmpty -->
+                  <span class="method-name">testPasswordFieldEmpty</span>
+                  <em>
+(Verify password field is empty on page load)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRememberMeUncheckedByDefault">
+                  </a> <!-- testRememberMeUncheckedByDefault -->
+                  <span class="method-name">testRememberMeUncheckedByDefault</span>
+                  <em>
+(Verify remember me checkbox is not checked by default)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUsernameFieldEmpty">
+                  </a> <!-- testUsernameFieldEmpty -->
+                  <span class="method-name">testUsernameFieldEmpty</span>
+                  <em>
+(Verify username field is empty on page load)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Salesforce_Login_Test_Suite-class-passed -->
+          <div class="suite-Salesforce_Login_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesforce.tests.InvalidLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyCredentials">
+                  </a> <!-- testEmptyCredentials -->
+                  <span class="method-name">testEmptyCredentials</span>
+                  <em>
+(Verify error message with empty username and empty password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyPassword">
+                  </a> <!-- testEmptyPassword -->
+                  <span class="method-name">testEmptyPassword</span>
+                  <em>
+(Verify error message with empty password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyUsername">
+                  </a> <!-- testEmptyUsername -->
+                  <span class="method-name">testEmptyUsername</span>
+                  <em>
+(Verify error message with empty username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testErrorMessageContainsRelevantText">
+                  </a> <!-- testErrorMessageContainsRelevantText -->
+                  <span class="method-name">testErrorMessageContainsRelevantText</span>
+                  <em>
+(Verify error message contains relevant text)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidCredentials">
+                  </a> <!-- testInvalidCredentials -->
+                  <span class="method-name">testInvalidCredentials</span>
+                  <em>
+(Verify error message with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordCaseSensitivity">
+                  </a> <!-- testPasswordCaseSensitivity -->
+                  <span class="method-name">testPasswordCaseSensitivity</span>
+                  <em>
+(Verify login with case sensitivity in password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSpacesOnlyUsername">
+                  </a> <!-- testSpacesOnlyUsername -->
+                  <span class="method-name">testSpacesOnlyUsername</span>
+                  <em>
+(Verify error message with spaces only in username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSpecialCharactersInUsername">
+                  </a> <!-- testSpecialCharactersInUsername -->
+                  <span class="method-name">testSpecialCharactersInUsername</span>
+                  <em>
+(Verify error message with special characters in username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSqlInjectionInUsername">
+                  </a> <!-- testSqlInjectionInUsername -->
+                  <span class="method-name">testSqlInjectionInUsername</span>
+                  <em>
+(Verify error message with SQL injection attempt in username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStaysOnLoginPageAfterFailedLogin">
+                  </a> <!-- testStaysOnLoginPageAfterFailedLogin -->
+                  <span class="method-name">testStaysOnLoginPageAfterFailedLogin</span>
+                  <em>
+(Verify user stays on login page after failed login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUnicodeCharactersInUsername">
+                  </a> <!-- testUnicodeCharactersInUsername -->
+                  <span class="method-name">testUnicodeCharactersInUsername</span>
+                  <em>
+(Verify login with unicode characters in username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVeryLongUsername">
+                  </a> <!-- testVeryLongUsername -->
+                  <span class="method-name">testVeryLongUsername</span>
+                  <em>
+(Verify error message with very long username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testXssAttemptInPassword">
+                  </a> <!-- testXssAttemptInPassword -->
+                  <span class="method-name">testXssAttemptInPassword</span>
+                  <em>
+(Verify error message with XSS attempt in password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Salesforce_Login_Test_Suite-class-passed -->
+        </div> <!-- panel Salesforce_Login_Test_Suite -->
+        <div panel-name="test-xml-Salesforce_Login_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/williams/Desktop/Kavi/TestAcedemy-2026/PlaywrightAIBatch/chapter_02_prompts/SeleniumFramework/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;methods&quot; name=&quot;Salesforce Login Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;methods&quot; name=&quot;Login Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.salesforce.tests.ValidLoginTest&quot;/&gt;
+      &lt;class name=&quot;com.salesforce.tests.InvalidLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Tests --&gt;
+&lt;/suite&gt; &lt;!-- Salesforce Login Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Salesforce_Login_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Salesforce Login Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Tests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Salesforce_Login_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Salesforce Login Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Salesforce_Login_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Salesforce Login Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Salesforce_Login_Test_Suite');
+function tableData_Salesforce_Login_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testInvalidUsernameFormat')
+data.setCell(0, 2, 'com.salesforce.tests.InvalidLoginTest')
+data.setCell(0, 3, 180010);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testRememberMeCheckboxFunctionality')
+data.setCell(1, 2, 'com.salesforce.tests.ValidLoginTest')
+data.setCell(1, 3, 15208);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMultipleFailedLoginAttempts')
+data.setCell(2, 2, 'com.salesforce.tests.InvalidLoginTest')
+data.setCell(2, 3, 3700);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testXssAttemptInPassword')
+data.setCell(3, 2, 'com.salesforce.tests.InvalidLoginTest')
+data.setCell(3, 3, 2926);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testStaysOnLoginPageAfterFailedLogin')
+data.setCell(4, 2, 'com.salesforce.tests.InvalidLoginTest')
+data.setCell(4, 3, 1934);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testLoginWithValidCredentialsFormat')
+data.setCell(5, 2, 'com.salesforce.tests.ValidLoginTest')
+data.setCell(5, 3, 1474);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testInvalidCredentials')
+data.setCell(6, 2, 'com.salesforce.tests.InvalidLoginTest')
+data.setCell(6, 3, 1194);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testPasswordCaseSensitivity')
+data.setCell(7, 2, 'com.salesforce.tests.InvalidLoginTest')
+data.setCell(7, 3, 845);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testSpecialCharactersInUsername')
+data.setCell(8, 2, 'com.salesforce.tests.InvalidLoginTest')
+data.setCell(8, 3, 701);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testEmptyUsername')
+data.setCell(9, 2, 'com.salesforce.tests.InvalidLoginTest')
+data.setCell(9, 3, 669);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testEmptyPassword')
+data.setCell(10, 2, 'com.salesforce.tests.InvalidLoginTest')
+data.setCell(10, 3, 660);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testUnicodeCharactersInUsername')
+data.setCell(11, 2, 'com.salesforce.tests.InvalidLoginTest')
+data.setCell(11, 3, 426);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testErrorMessageContainsRelevantText')
+data.setCell(12, 2, 'com.salesforce.tests.InvalidLoginTest')
+data.setCell(12, 3, 380);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testVeryLongUsername')
+data.setCell(13, 2, 'com.salesforce.tests.InvalidLoginTest')
+data.setCell(13, 3, 355);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testLoginWithRememberMeOption')
+data.setCell(14, 2, 'com.salesforce.tests.ValidLoginTest')
+data.setCell(14, 3, 331);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testEmptyCredentials')
+data.setCell(15, 2, 'com.salesforce.tests.InvalidLoginTest')
+data.setCell(15, 3, 316);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testSpacesOnlyUsername')
+data.setCell(16, 2, 'com.salesforce.tests.InvalidLoginTest')
+data.setCell(16, 3, 314);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSqlInjectionInUsername')
+data.setCell(17, 2, 'com.salesforce.tests.InvalidLoginTest')
+data.setCell(17, 3, 293);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testLoginPageElementsInteractable')
+data.setCell(18, 2, 'com.salesforce.tests.ValidLoginTest')
+data.setCell(18, 3, 244);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testLoginPageDisplay')
+data.setCell(19, 2, 'com.salesforce.tests.ValidLoginTest')
+data.setCell(19, 3, 41);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testRememberMeUncheckedByDefault')
+data.setCell(20, 2, 'com.salesforce.tests.ValidLoginTest')
+data.setCell(20, 3, 25);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testUsernameFieldEmpty')
+data.setCell(21, 2, 'com.salesforce.tests.ValidLoginTest')
+data.setCell(21, 3, 23);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testPasswordFieldEmpty')
+data.setCell(22, 2, 'com.salesforce.tests.ValidLoginTest')
+data.setCell(22, 3, 22);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testLoginPageTitle')
+data.setCell(23, 2, 'com.salesforce.tests.ValidLoginTest')
+data.setCell(23, 3, 3);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testCurrentUrlContainsSalesforce')
+data.setCell(24, 2, 'com.salesforce.tests.ValidLoginTest')
+data.setCell(24, 3, 1);
+window.suiteTableData['Salesforce_Login_Test_Suite']= { tableData: data, tableDiv: 'times-div-Salesforce_Login_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Salesforce_Login_Test_Suite">
+              </div> <!-- times-div-Salesforce_Login_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Salesforce_Login_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Salesforce Login Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Salesforce_Login_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Salesforce_Login_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.ValidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">5527 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEmptyCredentials</span>
+                <span class="method-start">5536 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.ValidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">5789 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginPageDisplay</span>
+                <span class="method-start">5790 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5832 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5852 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5919 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.ValidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5942 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">7245 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEmptyUsername</span>
+                <span class="method-start">7246 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7916 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.ValidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">7952 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginPageTitle</span>
+                <span class="method-start">7953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7956 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8000 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.ValidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">9353 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUsernameFieldEmpty</span>
+                <span class="method-start">9354 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9377 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">9572 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEmptyPassword</span>
+                <span class="method-start">9572 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10232 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">12063 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testInvalidUsernameFormat</span>
+                <span class="method-start">12063 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.ValidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">12165 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">14637 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordFieldEmpty</span>
+                <span class="method-start">14638 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14661 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">16125 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidCredentials</span>
+                <span class="method-start">16125 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17319 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.ValidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17413 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">18593 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRememberMeUncheckedByDefault</span>
+                <span class="method-start">18593 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18618 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18701 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">20964 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testRememberMeCheckboxFunctionality</span>
+                <span class="method-start">20965 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36176 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">36208 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">37272 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSpecialCharactersInUsername</span>
+                <span class="method-start">37273 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37974 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.ValidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">38056 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">39077 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLoginWithValidCredentialsFormat</span>
+                <span class="method-start">39078 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40552 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">40644 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">41807 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSqlInjectionInUsername</span>
+                <span class="method-start">41808 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42101 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.ValidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">42206 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">43665 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithRememberMeOption</span>
+                <span class="method-start">43665 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43996 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">44109 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">45438 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testVeryLongUsername</span>
+                <span class="method-start">45439 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45794 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.ValidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">45878 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCurrentUrlContainsSalesforce</span>
+                <span class="method-start">47352 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">47352 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47354 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">47436 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">48563 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSpacesOnlyUsername</span>
+                <span class="method-start">48564 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48878 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.ValidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">48961 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">50407 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginPageElementsInteractable</span>
+                <span class="method-start">50407 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50651 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.tests.InvalidLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">50730 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">51817 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testXssAttemptInPassword</span>
+                <span class="method-start">51818 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54744 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54837 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">56012 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testStaysOnLoginPageAfterFailedLogin</span>
+                <span class="method-start">56012 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">57947 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">58038 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testErrorMessageContainsRelevantText</span>
+                <span class="method-start">59350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">59350 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59730 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">59817 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">61123 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testMultipleFailedLoginAttempts</span>
+                <span class="method-start">61124 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64824 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">64922 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">66394 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordCaseSensitivity</span>
+                <span class="method-start">66395 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67240 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">67360 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUnicodeCharactersInUsername</span>
+                <span class="method-start">68518 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">68518 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68944 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">192074 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
